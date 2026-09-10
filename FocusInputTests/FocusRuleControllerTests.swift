@@ -133,20 +133,20 @@ final class ApplicationMonitorTests: XCTestCase {
     func testOwnApplicationCannotBeTrackedAsExternal() {
         XCTAssertFalse(
             ApplicationMonitor.isExternalApplication(
-                bundleIdentifier: "com.alexeyvax.FocusInput",
-                ownBundleIdentifier: "com.alexeyvax.FocusInput"
+                bundleIdentifier: "com.app.focusinput",
+                ownBundleIdentifier: "com.app.focusinput"
             )
         )
         XCTAssertTrue(
             ApplicationMonitor.isExternalApplication(
                 bundleIdentifier: "com.apple.Terminal",
-                ownBundleIdentifier: "com.alexeyvax.FocusInput"
+                ownBundleIdentifier: "com.app.focusinput"
             )
         )
         XCTAssertFalse(
             ApplicationMonitor.isExternalApplication(
                 bundleIdentifier: nil,
-                ownBundleIdentifier: "com.alexeyvax.FocusInput"
+                ownBundleIdentifier: "com.app.focusinput"
             )
         )
     }

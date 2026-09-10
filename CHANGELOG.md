@@ -5,7 +5,7 @@ All notable changes to this project are documented in this file.
 ## 2.0.0 - Unreleased
 
 - Rename the product, app, executable, Xcode project, scheme, target, and module to Focus Input.
-- Change the application bundle identifier to `com.alexeyvax.FocusInput`.
+- Change the application bundle identifier to `com.app.focusinput`.
 - Add user-configurable per-application input-source rules identified by bundle ID and TIS source ID.
 - Add a **Choose Application…** rule creation flow.
 - Show common installed editors, messaging apps, terminals, and macOS utilities before they have configured input sources, while hiding any that are not installed.

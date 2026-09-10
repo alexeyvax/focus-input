@@ -64,7 +64,7 @@ If Launch at Login shows an approval warning, allow Focus Input in **System Sett
 Turn off **Launch at Login**, choose **Quit Focus Input**, and delete `Focus Input.app`. To remove preferences and rules as well, run:
 
 ```bash
-defaults delete com.alexeyvax.FocusInput
+defaults delete com.app.focusinput
 ```
 
 ## Known limitations
