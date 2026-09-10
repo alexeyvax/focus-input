@@ -10,7 +10,7 @@ Focus Input is a native macOS menu bar utility that associates a preferred keybo
 
 ## Install
 
-When a Focus Input release is available, download its notarized ZIP from [GitHub Releases](https://github.com/alexeyvax/code-input-en/releases), unzip it, move `Focus Input.app` to `/Applications`, and launch it.
+Download the notarized ZIP from [GitHub Releases](https://github.com/alexeyvax/focus-input/releases), unzip it, move `Focus Input.app` to `/Applications`, and launch it.
 
 To build from source, open `FocusInput.xcodeproj` in Xcode and run the `FocusInput` scheme, or run:
 
@@ -70,5 +70,3 @@ defaults delete com.app.focusinput
 ## Known limitations
 
 Rules apply to an entire application, not an individual window, editor, terminal panel, document, or text field. Focus Input neither restores the previous source when leaving an application nor continuously enforces a rule. Different application variants may use different bundle identifiers and therefore require separate rules.
-
-The previous `en` artwork is intentionally not used by the renamed product. Neutral branded application artwork is still required before the Focus Input release.
